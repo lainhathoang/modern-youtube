@@ -12,7 +12,7 @@ const SearchBar = () => {
     e.preventDefault();
 
     if (searchTerm) {
-      await navigate(`/search/${searchTerm}`);
+      navigate(`/search/${searchTerm}`);
 
       setSearchTerm("");
     }

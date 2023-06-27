@@ -10,13 +10,9 @@ const SearchFeed = () => {
   const [videos, setVideos] = useState([]);
   const { searchTerm } = useParams();
 
-  // console.log("Search term: ", data);
-
   useEffect(() => {
-    // const data = fetchFromAPI(selectedCategory).then((data) => {
     const data = fetchFromAPI(`search?part=snippet&q=${searchTerm}`).then(
       (data) => {
-        console.log("data: ", data);
         setVideos(data.items);
       }
     );
