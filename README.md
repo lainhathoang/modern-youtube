@@ -1,5 +1,6 @@
-# The Modern Youtube clone app (created with React & Material UI 5 & RapidAPI)
-The project was created by using ReactJS, Material UI 5 & Rapid API.
+# The Modern Youtube clone app 
+-----
+The project was created by using **ReactJS**, **Material UI 5** & **Rapid API**.
 - If you want to test, you need to get an API key of [Youtube v3 RapidAPI](https://rapidapi.com/ytdlfree/api/youtube-v31) and then open the ".env" file for editing.
   
 Use command <code> npm start </code> to test the project locally.
